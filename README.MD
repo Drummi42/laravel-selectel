@@ -18,7 +18,7 @@ Add to config/app.php in service provider section:
 Reg2005\LaravelSelectel\SelectelServiceProvider::class,
 ```
 
-And use: https://laravel.com/docs/5.3/filesystem
+And use: https://laravel.com/docs/5.6/filesystem
 
 can use 
 ```composer
