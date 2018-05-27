@@ -21,6 +21,6 @@ Reg2005\LaravelSelectel\SelectelServiceProvider::class,
 And use: https://laravel.com/docs/5.3/filesystem
 
 can use 
-```php
+```composer
 composer require reg2005-laravel-selectel
 ```
