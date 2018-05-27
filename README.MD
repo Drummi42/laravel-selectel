@@ -22,5 +22,5 @@ And use: https://laravel.com/docs/5.3/filesystem
 
 can use 
 ```composer
-composer require reg2005-laravel-selectel
+composer require reg2005/laravel-selectel
 ```
