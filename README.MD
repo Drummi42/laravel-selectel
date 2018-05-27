@@ -23,5 +23,13 @@ Add to config/app.php in service provider section:
 Reg2005\LaravelSelectel\SelectelServiceProvider::class,
 ```
 
+Change in SelectelServiceProvider.php
+```php
+ $store = $client->objectStoreService('swift', 'common');
+```
+to 
+```php
+ $store = $client->objectStoreService('swift', 'ru-1');
+```
 And use: https://laravel.com/docs/5.6/filesystem
 
