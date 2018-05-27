@@ -1,5 +1,10 @@
 This is package for use [Selectel](https://selectel.com/) as CDN service for Laravel 5.*
 
+First, download package using Composer:
+```composer
+composer require reg2005/laravel-selectel
+```
+
 Add to config/filesystems.php in "disks" array:
 ```php
     'selectel' => [
@@ -20,7 +25,3 @@ Reg2005\LaravelSelectel\SelectelServiceProvider::class,
 
 And use: https://laravel.com/docs/5.6/filesystem
 
-can use 
-```composer
-composer require reg2005/laravel-selectel
-```
